@@ -7,7 +7,6 @@ public class Circle implements Shape{
         R = r;
     }
 
-
     public double getR() {
         return R;
     }
@@ -25,6 +24,5 @@ public class Circle implements Shape{
     public double calculatePerimeter() {
         return 2*pi*R;
     }
-
 
 }
